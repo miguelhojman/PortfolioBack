@@ -18,7 +18,7 @@ public class BackendApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://portfolio-5e022.web.app/");
+                registry.addMapping("/**").allowedOrigins("https://tercerfront.web.app/");
             }
         };
     }

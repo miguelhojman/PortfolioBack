@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 //Éste CORS es para aceptar el front de Firebase:
-@CrossOrigin(origins = "https://portfolio-5e022.web.app/")
+@CrossOrigin(origins = "https://tercerfront.web.app/")
 
 public class ProyectoController {
 
